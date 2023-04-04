@@ -23,3 +23,5 @@ let stud = find_by_id 777 db;;
 let rec find_by_last_name lname db = match db with [] -> [] | h::t -> if h.last_name = lname then h::find_by_last_name lname t else find_by_last_name lname t;;
 
 let rec remove_by_id id db = match db with [] -> [] | h::t -> if h.id <> id then h::remove_by_id id t else remove_by_id id t;;
+
+let rec count_in_semester sem db = match db with [] -> 0 | h::t -> if h.semester = sem then 1 + count_in_semester sem t else count_in_semester sem t;;
