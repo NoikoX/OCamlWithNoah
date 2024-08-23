@@ -1,5 +1,6 @@
 # OCamlWithNoah
 This repository is my journey with OCaml, and I hope to get a D or D+ in this course, unlike FOP :DD
 
-![images](https://github.com/user-attachments/assets/22702dde-cab7-417b-983b-6d186860bee6)
+![merlin-logo](https://github.com/user-attachments/assets/f330c0e9-21cd-41a5-a31f-30be86a382e9)
+
 
